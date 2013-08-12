@@ -4,18 +4,16 @@ package com.mindsandmachines.formattertest;
  * Test something.
  */
 public class SomeTestClass {
-    private static final String x = "adfasdf";
+	public SomeTestClass() {
+	}
 
-    public SomeTestClass() {
-    }
+	public void someFunction() {
+		int value = 1;
 
-    public void someFunction() {
-        int value = 1;
+		value = addSomethingToValue(value);
+	}
 
-        value = addSomethingToValue(value);
-    }
-
-    private int addSomethingToValue(final int value) {
-        return value + 10;
-    }
+	private int addSomethingToValue(final int value) {
+		return value + 10;
+	}
 }
