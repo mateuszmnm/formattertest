@@ -15,7 +15,7 @@ public class SomeTestClass {
 		value = addSomethingToValue(value);
 	}
 
-	private int addSomethingToValue(final int value) {
+	private int addSomethingToValue( final int value ) {
 		return value + 10 + getSomething();
 	}
 
