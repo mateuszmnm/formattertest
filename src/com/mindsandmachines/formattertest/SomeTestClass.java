@@ -16,6 +16,10 @@ public class SomeTestClass {
     }
 
     private int addSomethingToValue(final int value) {
-        return value + 10;
+        return value + 10 + getSomething();
+    }
+
+    private int getSomething() {
+        return 234;
     }
 }
